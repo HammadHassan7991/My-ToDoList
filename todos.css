@@ -1,0 +1,65 @@
+/* body{
+    background-color: #352f5b;
+}
+.container{
+    width: 400px;
+} */
+
+    /* .abc,.abc:focus{ */
+   /* input[type=text],
+input[type=text]:focus
+{ color: #fff;
+    border: none;
+    background: rgb(0,0,0,0.2);
+    max-width: 400px;
+}
+.todos li{
+    background: #423a6f;
+}
+.delete{
+    cursor: pointer;
+}
+.delete:hover{
+    
+    color: red;
+} */
+.filtered{
+    display: none !important;
+ /* !important override any class on element with 'filtered' class */
+}
+/* /////////////////////////////////////////////////////////////////////// */
+body{
+    background-color: rgb(67, 8, 122);
+}
+.container{
+    max-width: 500px;
+}
+.todos{
+    width: 90%;
+    margin: 0px auto;
+}
+.todos li{
+    background-color: rgb(38, 5, 69);
+}
+form label{
+    cursor: pointer;
+}
+.delete:hover{
+    color: red;
+    cursor: pointer;
+}
+.edit:hover{
+    color: rgb(77, 81, 78);
+    cursor: pointer;
+}
+.add label:hover{
+background-color: rgb(2, 135, 62);
+font-size: larger;
+}
+input[type=text],
+input[type=text]:focus{
+    border: none;
+    color: #fff;
+    background-color:rgb(32, 2, 61);
+   
+}
