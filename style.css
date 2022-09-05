@@ -45,7 +45,7 @@ form label{
     cursor: pointer;
 }
 .delete:hover{
-    color: red;
+    color: rgb(216, 86, 86);
     cursor: pointer;
 }
 .edit:hover{
